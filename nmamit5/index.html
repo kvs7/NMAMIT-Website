@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMAMIT</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- css sheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- title icon -->
+    <link rel="icon" href="images/icon.ico" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+
+  
+</head>
+<body>
+        <!-- navbar -->
+        <section>
+          <nav class="navbar fixed-top mynavbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://nmamit.nitte.edu.in/" target="_blank">
+                <img src="images/nitte-nmamit-logo.png" alt="Logo"  width="300" height="45"class="d-inline-block align-text-top jhover">
+              </a>
+              <!-- drop down buttons -->
+              <div class="btn-group" >
+                <button class="btn dropdown-toggle drop-btn-on-navbar" type="button" data-bs-toggle="dropdown"style="font-weight:600; font-size:1.3rem;">Admission</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://prajwalp11.github.io/Discover-nitte/" target="_blank">Discover Nitte</a></li>
+                  <li><a class="dropdown-item" download href="forms/nittebrochure.pdf">Download brochure</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/news-all.php" target="_blank">News</a></li>
+                </ul>
+              </div>
+              <div class="btn-group" >
+                <button class="btn dropdown-toggle drop-btn-on-navbar" type="button" data-bs-toggle="dropdown"style="font-weight:600; font-size:1.3rem;">Syllabus</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" download href="files/civil.pdf">Civil Department</a></li>
+                  <li><a class="dropdown-item" download href="files/cs-issyllabus.pdf">Computer Science</a></li>
+                  <li><a class="dropdown-item" download href="files/Mech.pdf">Mechhanical Department</a></li>
+                  <li><a class="dropdown-item" download href="files/ece.pdf">Electronics and communication Department</a></li>
+                  <li><a class="dropdown-item" download href="files/eee.pdf">Electronics and electrical Department</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button class="btn dropdown-toggle drop-btn-on-navbar" type="button" data-bs-toggle="dropdown"style="font-weight:600; font-size:1.3rem;">
+                  Departments
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-computer-science.php">Computer Science Department</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-information-science.php">Information Science Department</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-mechanical.php">Mechanical Department</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-CCN.php">Computer communication Department</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-civil.php">Civil Department</a></li>
+                  <li><a class="dropdown-item" href="https://nmamit.nitte.edu.in/department-biotechnology.php">Biotechnology Engineering Department</a></li>
+                  </ul>
+              </div>
+              <div class="btn-group" >
+                <button class="btn dropdown-toggle drop-btn-on-navbar" type="button" data-bs-toggle="dropdown"style="font-weight:600; font-size:1.3rem;">Quick Links</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="files/feestructure.pdf"  target="_blank" rel="noopener noreferrer">Fee Structure</a></li>
+                  <li><a class="dropdown-item" href="files/brousher.pdf"  target="_blank" rel="noopener noreferrer">Download brochure</a></li>
+                  <li><a class="dropdown-item" href="files/Eligibility.pdf"  target="_blank" rel="noopener noreferrer">Eligibility</a></li>
+                </ul>
+              </div>
+              <div class="but sticker">
+                <button class="jhover button " style="position: absolute; right:0.5%; top: 100%;" onclick="window.location.href = 'https://apply.nitte.edu.in';" >
+                <h3>Apply via NUCAT Exam</h3>
+                <h3>2023-2024</h3>
+                <h1>Admissions Open</h1>
+          
+                </button>
+              </div>
+              <!-- <a href="https://www.google.co.in/"><i class="jhover search-icon fa fa-magnifying-glass"></i></a> -->
+              <!-- <a  data-bs-toggle="collapse" href="#jai" role="button" aria-expanded="false" aria-controls="collapse">
+                <span class="jhover navbar-toggler-icon"></span>
+              </a> -->
+            </div>
+          </nav>
+          <!-- <div class="sticky-top"> -->
+         
+          
+        
+        
+        </section>
+        <!--carousel slide show-->
+        <section>
+          <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner-1.jpg"  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="images/banner-4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner-5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+        <!-- Announcements -->
+        <section id="section-below-carousel">
+          <div class="container">
+            <div class="both-ann-nucat row d-flex justify-content-center align-items-center ">
+              <div class="ann col-lg-3 p-2"><h3>Announcements</h3></div>
+              <div class="nucat-link col-lg-9 p-4 text-center jhover "><a id="nu-link" href="https://nucat.nitte.edu.in/"><h3 style="font-weight: 900;">Nucat 2023</h3></a></div>
+            </div>
+          </div>
+        </section>
+        <!-- programs -->
+        <section  style="background-image: url(images/bg.jpg); margin-bottom: 200px;"class="pjai ">
+            <h1 class="text-center programtext">PROGRAMS</h1>
+          <!-- <div class="container d-flex justify-content-center pb-5">
+          <div class="row pb-5">
+          <div class="col-sm-6"><br>
+            <a  class="jhover btn btn-dark btechbutton " >BTECH(BE) </a>
+          </div>
+          <div class="d-flex justify-content-center" id="newjai" ><br>
+            <ul class="list-group link text-center  ">
+              <li class="list-group-item ">
+                <a href="https://nmamit.nitte.edu.in/department-information-science.php">Information Science and Engineering</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-computer-science.php">Computer Science and Engineering</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-CCN.php">Computer and Communication Engineering</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Artificial Inteliigence & Machine Learning </a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-AI&DS.php">Artificial Inteliigence & Data Science</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-electrical-electronics.php">Electronics and Electrical Engineering</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-electronics-communication.php">Electronics And Communication Engineering</a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-civil.php">Civil Engineering </a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://nmamit.nitte.edu.in/department-biotechnology.php">Biotechnology Engineering</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          </div> -->
+
+          <!-- <div class="container"> -->
+            <!-- <div class="row">
+                <div class="tree">
+                    <ul>
+                        <li> -->
+                           <!-- <a href="#"><span>BTECH</span></a> -->
+                          <!-- <a  class="jhover btn btn-dark btechbutton " >BTECH(BE) </a> -->
+                        <!-- <ul>
+                            <li><a href="https://nmamit.nitte.edu.in/department-information-science.php"><span>Information Science</span></a></li>
+                            <li> <a href="https://nmamit.nitte.edu.in/department-computer-science.php"><span>Computer Science</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-AI&ML.php"><span>AI &ML</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-electronics-communication.php"><span>Electronics &Communication</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-civil.php"><span>Civil</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-CCN.php"><span>C Communication</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-biotechnology.php"><span>Biotechnology</span></a></li>
+                            <li><a href="https://nmamit.nitte.edu.in/department-AI&DS.php"><span>Robotics </span></a></li>
+                            
+    
+                        </ul>
+                        </li>
+                    </ul> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <div class="d-block">
+      <div class="row ">
+      
+          <div class="col-4 d-flex align-items-center justify-content-center">
+            <div>
+              <a  id="jaibtech" class="jhover1 btn btn-dark btechbutton vertical" >BTECH(BE) </a>
+            </div>
+          </div>
+      
+        
+        <div class="col-4 d-flex flex-column ">
+          <ul class="first">
+            <div class="align-self-strat">
+              <!-- style="margin-top: 90px;" -->
+              <li  class="jhover1 progbutton btn btn-dark cs "><a href="https://nmamit.nitte.edu.in/department-computer-science.php"><span>Computer Science</span></a></li><br>
+
+            </div>
+            <li class="jhover1 progbutton btn btn-dark ec"><a href="https://nmamit.nitte.edu.in/department-electronics-communication.php"><span>Electronics & Communication</span></a></li><br>
+            <li class="jhover1 progbutton btn btn-dark cv"><a href="https://nmamit.nitte.edu.in/department-civil.php"><span>Civil</span></a></li><br>
+            <li class="jhover1 progbutton btn btn-dark bt"><a href="https://nmamit.nitte.edu.in/department-biotechnology.php"><span>Biotechnology</span></a></li><br>
+            <li class="jhover1 progbutton btn btn-dark ee"><a href="https://nmamit.nitte.edu.in/department-electrical-electronics.php"><span>Electrical & Electronics</span></a></li><br>
+            <li class="jhover1 progbutton btn btn-dark me"><a href="https://nmamit.nitte.edu.in/department-mechanical.php"><span>Mechanical</span></a></li><br>
+          </ul>
+        </div>
+        <div class="col-4 d-flex flex-column">
+          <div class=" align-self-start">
+          <li class="jhover1 progbutton btn btn-dark is"><a href="https://nmamit.nitte.edu.in/department-information-science.php"><span>Information Scence</span></a></li><br>
+          </div><br>
+          <div class="align-self-start">
+            <li class="jhover1 progbutton btn btn-dark cc"><a href="https://nmamit.nitte.edu.in/department-CCN.php"><span>Computer and Communication</span></a></li><br>
+
+          </div><br>
+          <div class="align-self-start">
+            <li class="jhover1 progbutton btn btn-dark aids"><a href="https://nmamit.nitte.edu.in/department-AI&DS.php"><span>AI & DS </span></a></li><br>
+
+          </div><br>
+          <div class="align-self-start">
+            <li class="jhover1 progbutton btn btn-dark aiml"><a href="https://nmamit.nitte.edu.in/department-AI&ML.php"><span>AI &ML</span></a></li><br>
+
+          </div><br>
+          <div class="align-self-start mt-auto ">
+            <li class="jhover1 progbutton btn btn-dark ri"><a href="https://nmamit.nitte.edu.in/department-robotics.php"><span>Robotics </span></a></li><br>
+          </div>
+        
+          
+          </div>
+      </div>
+
+    </div>
+        
+        </section>
+        <!-- whatsinnitte -->
+        <section >
+          <div class="container pb-5 pt-5">
+            <div class="row">
+              <div class="col-sm-6" style="height:31.25rem;">
+                <img class="whatsonnitteimage" src="images/1211.jpg" alt="nitte-image">
+              </div>
+              <div class=" academia-div col-lg-6">
+                <h2 id="whatsonnittetitle">WHAT'S ON NITTE?</h2>
+                <div class="row">
+                  <div class=" academia-pavilion col-lg-9">NMAMIT, NITTE WINS FOURTH BEST RESEARCH WORK AWARD IN I2-ACADEMIA PAVILION, IMTEX TOOLTECH-2023</div>
+                  <div class="academia-date col-lg-3">
+                    <h4 id="number19">19</h4>
+                    <h5 >JAN</h5>
+                    <h5 id="yr2023">2023</h5>
+                    </JAN>
+                  </div>
+                </div>
+                <p></p>
+                <div style="text-align: justify;font-weight: 375;">
+                  Indian Machine Tool Manufacturers' Association (IMTMA) organized an International Machine Tool Exhibition-2023 (IMTEX-2023) at Bangalore International Exhibition Center (BIEC), from 19th to 25th January 2023. As part of the IMTEX Exhibition, IMTMA organized the ...
+                  <p></p>
+                  <a href="https://nmamit.nitte.edu.in/news-details.php?id=729" class="readmore-btn">Read more...</a>
+                </div>
+                <!-- <div>
+                  <button type="button" class="two-buttons-below-academia btn btn-secondary btn-lg">Blog</button>
+                  <button type="button" class="two-buttons-below-academia btn btn-secondary btn-lg">Calender</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div>
+          <hr>
+        </div>
+        </section>
+        <!-- annual events(transition cards)-->
+        <section>
+          <h1 class="text-center programtext">ANNUAL EVENTS</h1>
+          <div class="container pb-5">
+            <div class="annual-events d-flex mx-5">
+            <div class="card-annual cannual mx-3">
+              <div class=" cimage">
+                <img src="images/sports.jpg" class="image" style="width: 120%;">
+              </div>
+              <div class="card-heading">
+                <h2>Athletic Meet 2022</h2>
+                <p class="card-description cdesc">The 36 th Annual Athletic Meet of NMAM Institute of Technology, Nitte was organized
+                  by the Department of Physical Education & Sport, NMAMIT on Thursday.<br></p>
+              </div>
+            </div>
+            <div class="card-annual cannual mx-3">
+              <div class=" cimage">
+                <img src="images/ann-2.jfif" class="image"style="width: 115%;" >
+              </div>
+              <div class="card-heading">
+                <h2>Incridea 2022</h2>
+                <p class="card-description cdesc">Incridea is a national level techno-cultural fest of NMAM Institute of Technology,
+                  Nitte. It is a celebration of all forms of technical and cultur.<br></p>
+              </div>
+            </div>
+            <div class="card-annual cannual mx-3">
+              <div class=" cimage">
+                <img src="images/ann-3.jfif" class="image" style="width: 97%;">
+              </div>
+              <div class="card-heading">
+                <h2 style>TEDxNitteDU</h2>
+                <p class="card-description cdesc">In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local,
+                  self-organized events that bring people together.<br></p>
+              </div>
+            </div>
+            <div class="card-annual cannual mx-3">
+              <div class="e cimage">
+                <img src="images/ann-4.jpg" class="image"style="width: 103%;" >
+              </div>
+              <div class="card-heading">
+                <h2>Under-25 Summit</h2>
+                <p class="card-description cdesc">Under 25 is a platform to inspire millions of students for the discovery of
+                  career opportunities and giving them a true industrial experience. 
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+  
+        </section>
+        <!-- news -->
+        <!-- videosec -->
+        <section id="section-below-admission">
+        <div class="container">
+          
+            <div class="row">
+            <div class="container col-sm-6">
+              <iframe class="yt-vdo" width="560" height="315" src="https://www.youtube.com/embed/OeZXXC57Xew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="container col-sm-6 flipjai">
+              <div id="carousel-awards" class="carousel car-awards" data-bs-ride="carousel">
+                <div class="carousel-inner py-5 px-5">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="cardflip">
+                      <div class="card-front">
+                        <img src="images/home-award-2.png">
+                      </div>
+                      <div class="card-back p-3">
+                        <h5 class="card-back-text ">Nitte (Deemedd to be University) has an A+ grade accreditation from the
+                          National Assessment and
+                          Accreditation Council (NAAC). NAAC assesses higher educational institutions based on a seven point
+                          criteria ranging from curriculum to governance. .</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <div class="cardflip">
+                      <div class="card-front">
+                        <img src="images/home-award-4.png">
+                      </div>
+                      <div class="card-back p-3">
+                        <h5 class="card-back-text ">New Delhi [India], July 27 (ANI/SRV): Nitte (Deemed to be University),
+                          one of the leading
+                          universities in India, has secured the 175th rank in the National Institutional Ranking Framework
+                          (NIRF) 2022 ranking list.</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <div class="cardflip">
+                      <div class="card-front">
+                        <img src="images/home-award-6.png">
+                      </div>
+                      <div class="card-back p-3">
+                        <h5 class="card-back-text ">AIC-NITTE offers valuable in-house resources and academic-industry
+                          collaborations to develop
+                          applications and program to realise the dreams of young entrepreneurs to create a viable business
+                          venture. The AIC Nitte is among a few reputed incubators selected by the Govt</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-awards" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-awards" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+          </div>
+        
+        </div>
+        </section>
+        <!-- placements -->
+        <section>
+          <h1 class="text-center programtext">PLACEMENTS</h1>
+          <div class="pb-5">
+            <div class="container placements">
+            
+              <div class="row text-center py-5">
+                <div class="jhover col-sm-4">
+                  <i class="fa fa-money fa-2x placetext" aria-hidden="true"></i>
+                  <h5>HIGHEST SALARY OFFERED</h5>
+                  <h1 class="placetext">53.6LPA</h1>
+                </div>
+                <div class="jhover col-sm-4">
+                  <i class="fa fa-puzzle-piece fa-2x placetext" aria-hidden="true"></i>
+                  <h5>TOTAL NUMBER OF COMPANIES VISITED</h5>
+                  <h1 class="placetext">400+</h1>
+                </div>
+                <div class="jhover col-sm-4">
+                  <i class="fa fa-suitcase fa-2x placetext" aria-hidden="true"></i>
+                  <h5>JOB OFFERS PER YEAR</h5>
+                  <h1 class="placetext">1000+</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- testimonials -->
+        <section>
+          <h1 class="text-center programtext">TESTIMONIALS</h1>
+        <div class="slide-container swiper pb-5">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                  <div class="jhover card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="images/guru.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content">
+                          <h2 class="name">MR MANJUNATH GURU</h2>
+                          <p class="description"></p>
+
+                          <button class="button1">View More</button>
+                      </div>
+                  </div>
+                  <div class="jhover card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/saritha.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">MRS SARITHA</h2>
+                        <p class="description"></p>
+
+                        <button class="button1">View More</button>
+                    </div>
+                </div>
+                <div class="jhover card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="images/shamin.jpg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">MR SHAMIN</h2>
+                      <p class="description"></p>
+
+                      <button class="button1">View More</button>
+                  </div>
+              </div>
+              <div class="jhover card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                    <div class="card-image">
+                        <img src="images/lakshmeesha.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <h2 class="name">MR LAKSHMEESHA</h2>
+                    <p class="description"></p>
+
+                    <button class="button1">View More</button>
+                </div>
+            </div>
+            <div class="jhover card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                      <img src="images/deepika-rao.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+
+              <div class="card-content">
+                  <h2 class="name">MS DEEPIKA ROA</h2>
+                  <p class="description"></p>
+
+                  <button class="button1">View More</button>
+              </div>
+          </div>
+                
+                  
+              </div>
+          </div>
+
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="javascript.js"></script>
+        </section>
+        <!-- quick links -->
+        <!-- <section>
+          <h1 class="text-center programtext">QUICK LINKS</h1> 
+          <div class="quicklink py-5">
+            <div class="container text-center">
+              <a class="jhover btn btn-dark" href="files/brousher.pdf"  target="_blank" rel="noopener noreferrer">BROCHURE</a>
+              <a class="jhover btn btn-dark" href="files/feestructure.pdf"  target="_blank" rel="noopener noreferrer">FEE STRUCTURE(B.TECH)</a>
+              <a class="jhover btn btn-dark" href="files/Eligibility.pdf"  target="_blank" rel="noopener noreferrer">ELIGIBILITY</a>
+            </div>
+          </div>
+        </section> -->
+        <!-- admission -->
+        <section>
+          <div class="admission pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img class="img-fluid"src="images/home-admission-bg.png" alt="">
+                </div>
+                <div class="col-sm-auto pt-5 px-5">
+                  <h6 class="adtext">
+                    WHAT STARTS HERE 
+                  </h6>
+                  <h6 class="adtext pb-5">
+                    CHANGES THE 
+                    <span>
+                      WORLD
+                    </span>
+                  </h6>
+                    <div>
+                      <button class="newbut px-5 py-4" onclick="window.location.href = 'https://apply.nitte.edu.in';">ADMISSIONS 2023-2024</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Footer -->
+        <!-- <footer>
+          <div class="container">
+            <div class="row" style="padding-top:2rem;">
+              <div class="col-lg-3">
+              <h3>About Us</h3>
+              <ul>
+                <li class="footer-links">Establishment of Nitte</li>
+                <li class="footer-links">Founder</li>
+                <li class="footer-links">Milestones</li>
+                <li class="footer-links">Vision & Mission</li>
+                <li class="footer-links">Social Responsibility</li>
+                <li class="footer-links">Green campus</li>
+              </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3>Quick Links</h3>
+                <ul>
+                <li class="footer-links">Admissions</li>
+                <li class="footer-links">Alumni</li>
+                <li class="footer-links">Research</li>
+                <li class="footer-links">Awards</li>
+                <li class="footer-links">Nitte blog</li>
+              </ul>
+              </div>
+              <div class="col-lg-3" style="padding-top: 2.5rem;">
+                <ul>
+                <li class="footer-links">Careers @ Nitte</li>
+                <li class="footer-links">Placements</li>
+                <li class="footer-links">International</li>
+                <li class="footer-links">Advantage Nitte</li>
+                <li class="footer-links">Nitte News</li>
+              </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3>Contact Us</h3>
+                <address>
+                  6th Floor, University Enclave,<br>
+                  Medical Sciences Complex,<br>
+                  Deralakatte, Mangaluru - 575018<br>
+                  Karnataka, India
+                </address>
+                <ul  style="list-style-type: none;text-align: left;padding: 0;">
+                  <li><a class="footer-ph-and-mail" href="tel:9108242204300"><i class="footer-icons fa-solid fa-phone"></i>
+                      +91-0824-2204300/01/02/03</a></li>
+                  <li><a class="footer-ph-and-mail" href="mailto:info@nitte.edu.in"><i class="footer-icons fa-regular fa-envelope"></i>info@nitte.edu.in</a></li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="row" style="padding:2rem 0;">
+              <div class="col-lg-9">
+                <ul class="footer-extra-links">
+                  <li>Privacy Policy</li>
+                  <li>Legal Disclaimer</li>
+                  <li>Grievances</li>
+                  <li>Feedback</li>
+                  <li>NU Services</li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <i class="socials-icons fa-brands fa-facebook"></i>
+                <i class="socials-icons fa-brands fa-twitter"></i>
+                <i class="socials-icons fa-brands fa-youtube"></i>
+                <i class="socials-icons fa-brands fa-instagram"></i>
+                <i class="socials-icons fa-brands fa-whatsapp"></i>
+              </div>
+            </div>
+            <div style="">
+            <hr style="color: #fff; width:50%;margin: auto;!important;">
+            <p style="margin:0; text-align: center;padding:0.25rem 0 2rem;">© 2023 Nitte, Mangalore</p>
+          </div>
+          </div>
+        </footer> -->
+        <footer id="footer-forlink">
+          <div class="container">
+            <div class="row" style="padding-top:2rem;">
+              <div class="col-lg-3">
+                <h3>About NITTE</h3>
+                <ul>
+                  <a href="https://prajwalp11.github.io/Discover-nitte/" style="color: #fff; ">
+                    <li class="footer-links p-2 py-2">Discover nitte</li>
+                  </a>
+                  <a href="https://nmamit.nitte.edu.in/about-nmamit-nitte.php" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">About us</li>
+                  </a>
+                  <a href="https://nmamit.nitte.edu.in/rankings.php" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">Milestones</li>
+                  </a>
+                  <a href="https://goo.gl/maps/rHjhzuQaEsW6ryqW9" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">NMAMIT Map</li>
+                  </a>
+                  <a href="https://nmamit.nitte.edu.in/accreditations.php" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">UG Programs</li>
+                  </a>
+                </ul>
+              </div>
+      
+              <div class="col-lg-3" style="padding-top: 2.5rem;">
+                <ul>
+                  <a href="https://nucat.nitte.edu.in/" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">NUCAT Exam</li>
+                  </a>
+                  <a href="syllabus/Nucat-eligibility.pdf" download="" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">NUCAT Eligibility</li>
+                  </a>
+                  <a href="https://nmamit.nitte.edu.in/placement.php" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">Placements</li>
+                  </a>
+                  <a href="https://nitte.edu.in/scholarships.php" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">Scholarship</li>
+                  </a>
+                  <a href="syllabus/NIDARSHAN-2022.pdf" download="" style="color: #fff;">
+                    <li class="footer-links  p-2 py-2">Nidarshan Magazine</li>
+                  </a>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h3>Contact Us</h3>
+                <address class="pt-5">
+                  6th Floor, University Enclave,<br>
+                  Medical Sciences Complex,<br>
+                  Deralakatte, Mangaluru - 575018<br>
+                  Karnataka, India
+                </address>
+              </div>
+              <div class="col-lg-3 pt-5" style="margin-top:3rem;">
+                <ul style="list-style-type: none;text-align: left;padding: 0;">
+                  <li><a class="footer-ph-and-mail" href="tel:9108242204300"><i class="footer-icons fa-solid fa-phone"></i>
+                      +91-0824-2204300/01/02/03</a></li>
+                  <li><a class="footer-ph-and-mail" href="mailto:info@nitte.edu.in"><i
+                        class="footer-icons fa-regular fa-envelope"></i>info@nitte.edu.in</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div style="padding: 2rem 0;text-align: center;">
+              <a href="https://facebook.com/" style="color: #fff;"><i style="font-size:2.5rem;"
+                  class="socials-icons fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/" style="color: #fff;"><i style="font-size:2.5rem; margin:0 1rem ;"
+                  class="socials-icons1 fa-brands fa-twitter"></i></a>
+              <a href="https://youtube.com/" style="color: #fff;"><i style="font-size:2.5rem; margin:0 1rem ;"
+                  class="socials-icons2 fa-brands fa-youtube"></i></a>
+              <a href="https://instagram.com/" style="color: #fff;"><i style="font-size:2.5rem; margin:0 1rem ;"
+                  class="socials-icons3 fa-brands fa-instagram"></i></a>
+              <a href="https://web.whatsapp.com/" style="color: #fff;"><i style="font-size:2.5rem; margin:0 1rem ;"
+                  class="socials-icons4 fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div>
+              <hr style="color: #fff; width:50%;margin: auto;!important;">
+              <p style="margin:0; text-align: center;padding:0.25rem 0 2rem;">© 2023 Nitte, Mangalore</p>
+            </div>
+          </div>
+        </footer>
+</body>
+</html>

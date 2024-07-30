@@ -1,1 +1,1 @@
-# NMAMIT-Website
+# nmamitWebsite
